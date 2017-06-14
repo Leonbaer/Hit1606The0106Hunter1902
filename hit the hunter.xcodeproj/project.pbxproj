@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6129CB711EF18FC700EBDF9F /* Move.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6129CB701EF18FC700EBDF9F /* Move.mp3 */; };
+		6129CB731EF18FFF00EBDF9F /* Seren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6129CB721EF18FFF00EBDF9F /* Seren.mp3 */; };
 		61ED12691EE2A42F009B5DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED12681EE2A42F009B5DB1 /* AppDelegate.swift */; };
 		61ED126B1EE2A42F009B5DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED126A1EE2A42F009B5DB1 /* ViewController.swift */; };
 		61ED126E1EE2A42F009B5DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ED126C1EE2A42F009B5DB1 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6129CB701EF18FC700EBDF9F /* Move.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Move.mp3; sourceTree = "<group>"; };
+		6129CB721EF18FFF00EBDF9F /* Seren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Seren.mp3; sourceTree = "<group>"; };
 		61ED12651EE2A42F009B5DB1 /* hit the hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hit the hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61ED12681EE2A42F009B5DB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61ED126A1EE2A42F009B5DB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				61ED127C1EE2A42F009B5DB1 /* hit the hunterTests */,
 				61ED12871EE2A42F009B5DB1 /* hit the hunterUITests */,
 				61ED12661EE2A42F009B5DB1 /* Products */,
+				6129CB701EF18FC700EBDF9F /* Move.mp3 */,
+				6129CB721EF18FFF00EBDF9F /* Seren.mp3 */,
 				61ED129C1EE2AA6D009B5DB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				61ED12B41EE2BE4E009B5DB1 /* play.storyboard in Resources */,
+				6129CB711EF18FC700EBDF9F /* Move.mp3 in Resources */,
+				6129CB731EF18FFF00EBDF9F /* Seren.mp3 in Resources */,
 				61ED12731EE2A42F009B5DB1 /* LaunchScreen.storyboard in Resources */,
 				61ED12701EE2A42F009B5DB1 /* Assets.xcassets in Resources */,
 				61ED126E1EE2A42F009B5DB1 /* Main.storyboard in Resources */,
