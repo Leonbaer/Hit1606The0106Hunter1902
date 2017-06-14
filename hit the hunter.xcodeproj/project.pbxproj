@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		618805C41EE5B209002E9531 /* startscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 618805C31EE5B209002E9531 /* startscreen.png */; };
-		618805C61EE5B29F002E9531 /* SETTINGS.png in Resources */ = {isa = PBXBuildFile; fileRef = 618805C51EE5B29F002E9531 /* SETTINGS.png */; };
-		618805C81EE712F7002E9531 /* zürück button.png in Resources */ = {isa = PBXBuildFile; fileRef = 618805C71EE712F7002E9531 /* zürück button.png */; };
 		61ED12691EE2A42F009B5DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED12681EE2A42F009B5DB1 /* AppDelegate.swift */; };
 		61ED126B1EE2A42F009B5DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED126A1EE2A42F009B5DB1 /* ViewController.swift */; };
 		61ED126E1EE2A42F009B5DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ED126C1EE2A42F009B5DB1 /* Main.storyboard */; };
@@ -17,16 +14,9 @@
 		61ED12731EE2A42F009B5DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12711EE2A42F009B5DB1 /* LaunchScreen.storyboard */; };
 		61ED127E1EE2A42F009B5DB1 /* hit_the_hunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED127D1EE2A42F009B5DB1 /* hit_the_hunterTests.swift */; };
 		61ED12891EE2A42F009B5DB1 /* hit_the_hunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED12881EE2A42F009B5DB1 /* hit_the_hunterUITests.swift */; };
-		61ED12971EE2A5E5009B5DB1 /* PLAY BUTTON.png in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12961EE2A5E5009B5DB1 /* PLAY BUTTON.png */; };
-		61ED12991EE2A5F8009B5DB1 /* App_background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12981EE2A5F8009B5DB1 /* App_background1.png */; };
 		61ED12A01EE2AABB009B5DB1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61ED129F1EE2AABB009B5DB1 /* AVFoundation.framework */; };
-		61ED12A81EE2B777009B5DB1 /* Seren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12A71EE2B777009B5DB1 /* Seren.mp3 */; };
-		61ED12AC1EE2B9BC009B5DB1 /* PLAY BUTTON1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12AB1EE2B9BC009B5DB1 /* PLAY BUTTON1.png */; };
-		61ED12B21EE2BCA1009B5DB1 /* Move.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12B11EE2BCA1009B5DB1 /* Move.mp3 */; };
 		61ED12B41EE2BE4E009B5DB1 /* play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12B31EE2BE4E009B5DB1 /* play.storyboard */; };
 		61ED12B61EE2BE71009B5DB1 /* playViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED12B51EE2BE71009B5DB1 /* playViewController.swift */; };
-		61ED12B81EE2C4BD009B5DB1 /* pause zeichen.png in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12B71EE2C4BD009B5DB1 /* pause zeichen.png */; };
-		61ED12BA1EE2C8F9009B5DB1 /* SCORE.png in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12B91EE2C8F9009B5DB1 /* SCORE.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		618805C31EE5B209002E9531 /* startscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startscreen.png; sourceTree = "<group>"; };
-		618805C51EE5B29F002E9531 /* SETTINGS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SETTINGS.png; sourceTree = "<group>"; };
-		618805C71EE712F7002E9531 /* zürück button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zürück button.png"; sourceTree = "<group>"; };
 		61ED12651EE2A42F009B5DB1 /* hit the hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hit the hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61ED12681EE2A42F009B5DB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61ED126A1EE2A42F009B5DB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,17 +50,10 @@
 		61ED12841EE2A42F009B5DB1 /* hit the hunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hit the hunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61ED12881EE2A42F009B5DB1 /* hit_the_hunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hit_the_hunterUITests.swift; sourceTree = "<group>"; };
 		61ED128A1EE2A42F009B5DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61ED12961EE2A5E5009B5DB1 /* PLAY BUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PLAY BUTTON.png"; path = "../PLAY BUTTON.png"; sourceTree = "<group>"; };
-		61ED12981EE2A5F8009B5DB1 /* App_background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_background1.png; sourceTree = "<group>"; };
 		61ED129D1EE2AA6D009B5DB1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		61ED129F1EE2AABB009B5DB1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		61ED12A71EE2B777009B5DB1 /* Seren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Seren.mp3; sourceTree = "<group>"; };
-		61ED12AB1EE2B9BC009B5DB1 /* PLAY BUTTON1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLAY BUTTON1.png"; sourceTree = "<group>"; };
-		61ED12B11EE2BCA1009B5DB1 /* Move.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Move.mp3; sourceTree = "<group>"; };
 		61ED12B31EE2BE4E009B5DB1 /* play.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = play.storyboard; sourceTree = "<group>"; };
 		61ED12B51EE2BE71009B5DB1 /* playViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playViewController.swift; sourceTree = "<group>"; };
-		61ED12B71EE2C4BD009B5DB1 /* pause zeichen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause zeichen.png"; sourceTree = "<group>"; };
-		61ED12B91EE2C8F9009B5DB1 /* SCORE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SCORE.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,15 +89,6 @@
 				61ED127C1EE2A42F009B5DB1 /* hit the hunterTests */,
 				61ED12871EE2A42F009B5DB1 /* hit the hunterUITests */,
 				61ED12661EE2A42F009B5DB1 /* Products */,
-				61ED12AB1EE2B9BC009B5DB1 /* PLAY BUTTON1.png */,
-				61ED12B71EE2C4BD009B5DB1 /* pause zeichen.png */,
-				61ED12B91EE2C8F9009B5DB1 /* SCORE.png */,
-				618805C31EE5B209002E9531 /* startscreen.png */,
-				618805C71EE712F7002E9531 /* zürück button.png */,
-				61ED12981EE2A5F8009B5DB1 /* App_background1.png */,
-				618805C51EE5B29F002E9531 /* SETTINGS.png */,
-				61ED12A71EE2B777009B5DB1 /* Seren.mp3 */,
-				61ED12B11EE2BCA1009B5DB1 /* Move.mp3 */,
 				61ED129C1EE2AA6D009B5DB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -138,7 +109,6 @@
 				61ED12681EE2A42F009B5DB1 /* AppDelegate.swift */,
 				61ED126A1EE2A42F009B5DB1 /* ViewController.swift */,
 				61ED126C1EE2A42F009B5DB1 /* Main.storyboard */,
-				61ED12961EE2A5E5009B5DB1 /* PLAY BUTTON.png */,
 				61ED12B31EE2BE4E009B5DB1 /* play.storyboard */,
 				61ED12B51EE2BE71009B5DB1 /* playViewController.swift */,
 				61ED126F1EE2A42F009B5DB1 /* Assets.xcassets */,
@@ -301,17 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618805C81EE712F7002E9531 /* zürück button.png in Resources */,
-				618805C61EE5B29F002E9531 /* SETTINGS.png in Resources */,
-				618805C41EE5B209002E9531 /* startscreen.png in Resources */,
-				61ED12BA1EE2C8F9009B5DB1 /* SCORE.png in Resources */,
-				61ED12B81EE2C4BD009B5DB1 /* pause zeichen.png in Resources */,
-				61ED12B21EE2BCA1009B5DB1 /* Move.mp3 in Resources */,
-				61ED12991EE2A5F8009B5DB1 /* App_background1.png in Resources */,
-				61ED12971EE2A5E5009B5DB1 /* PLAY BUTTON.png in Resources */,
-				61ED12A81EE2B777009B5DB1 /* Seren.mp3 in Resources */,
 				61ED12B41EE2BE4E009B5DB1 /* play.storyboard in Resources */,
-				61ED12AC1EE2B9BC009B5DB1 /* PLAY BUTTON1.png in Resources */,
 				61ED12731EE2A42F009B5DB1 /* LaunchScreen.storyboard in Resources */,
 				61ED12701EE2A42F009B5DB1 /* Assets.xcassets in Resources */,
 				61ED126E1EE2A42F009B5DB1 /* Main.storyboard in Resources */,

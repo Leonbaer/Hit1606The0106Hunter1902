@@ -21,14 +21,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="tjN-oZ-ijl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen" translatesAutoresizingMaskIntoConstraints="NO" id="tjN-oZ-ijl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM8-Ku-zbA">
                                 <rect key="frame" x="77" y="115" width="220" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="PLAY BUTTON1.png"/>
+                                <state key="normal" title="Button" image="PLAY BUTTON1"/>
                                 <connections>
                                     <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eWP-Pf-cC4"/>
                                     <segue destination="UB1-Ak-cuH" kind="show" id="EIO-yr-LxM"/>
@@ -37,7 +37,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kC2-qT-3iC">
                                 <rect key="frame" x="77" y="401" width="220" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="SETTINGS.png"/>
+                                <state key="normal" title="Button" image="SETTINGS"/>
                                 <connections>
                                     <action selector="brightness:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IYO-2C-pQ0"/>
                                     <segue destination="nzm-I7-SIb" kind="show" id="gFc-rf-Nmg"/>
@@ -46,7 +46,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2h-eD-4UT">
                                 <rect key="frame" x="77" y="261" width="220" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="SCORE.png"/>
+                                <state key="normal" title="Button" image="SCORE"/>
                                 <connections>
                                     <segue destination="8u1-YG-sxA" kind="show" id="6b3-7g-sL4"/>
                                 </connections>
@@ -71,14 +71,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="eu9-UK-0FV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen" translatesAutoresizingMaskIntoConstraints="NO" id="eu9-UK-0FV">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd1-AH-UwN">
                                 <rect key="frame" x="0.0" y="20" width="98" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="zürück button.png"/>
+                                <state key="normal" title="Button" image="zürück button"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="dyI-dQ-kdF"/>
                                 </connections>
@@ -110,14 +110,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="X1p-Cc-f9X">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen" translatesAutoresizingMaskIntoConstraints="NO" id="X1p-Cc-f9X">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfF-w3-2DJ">
                                 <rect key="frame" x="10" y="10" width="98" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="zürück button.png"/>
+                                <state key="normal" title="Button" image="zürück button"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="ZzF-qu-YHC"/>
                                 </connections>
@@ -149,14 +149,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="fJV-sr-ER3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen" translatesAutoresizingMaskIntoConstraints="NO" id="fJV-sr-ER3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4n-Cp-yva">
                                 <rect key="frame" x="10" y="10" width="98" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="zürück button.png"/>
+                                <state key="normal" title="Button" image="zürück button"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="vne-eD-GHH"/>
                                 </connections>
@@ -178,11 +178,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="PLAY BUTTON1.png" width="3000" height="2000"/>
-        <image name="SCORE.png" width="3000" height="2000"/>
-        <image name="SETTINGS.png" width="3000" height="2000"/>
-        <image name="startscreen.png" width="900" height="1600"/>
-        <image name="zürück button.png" width="3000" height="2000"/>
+        <image name="PLAY BUTTON1" width="3000" height="2000"/>
+        <image name="SCORE" width="3000" height="2000"/>
+        <image name="SETTINGS" width="3000" height="2000"/>
+        <image name="startscreen" width="900" height="1600"/>
+        <image name="zürück button" width="3000" height="2000"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vne-eD-GHH"/>
