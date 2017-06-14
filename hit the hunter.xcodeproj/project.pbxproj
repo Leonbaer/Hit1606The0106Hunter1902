@@ -235,7 +235,7 @@
 				TargetAttributes = {
 					61ED12641EE2A42F009B5DB1 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = EKRVF8RZ68;
+						DevelopmentTeam = 8625D448KP;
 						ProvisioningStyle = Automatic;
 					};
 					61ED12781EE2A42F009B5DB1 = {
@@ -461,10 +461,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EKRVF8RZ68;
+				DEVELOPMENT_TEAM = 8625D448KP;
 				INFOPLIST_FILE = "hit the hunter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "leon.hit-the-hunter";
+				PRODUCT_BUNDLE_IDENTIFIER = ".hit-the-hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -474,10 +474,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EKRVF8RZ68;
+				DEVELOPMENT_TEAM = 8625D448KP;
 				INFOPLIST_FILE = "hit the hunter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "leon.hit-the-hunter";
+				PRODUCT_BUNDLE_IDENTIFIER = ".hit-the-hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
