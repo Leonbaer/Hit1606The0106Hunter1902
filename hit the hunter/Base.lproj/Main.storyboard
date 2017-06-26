@@ -129,10 +129,10 @@
             </objects>
             <point key="canvasLocation" x="871.20000000000005" y="981.85907046476768"/>
         </scene>
-        <!--View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="YZ9-rk-5tm">
             <objects>
-                <viewController id="UB1-Ak-cuH" sceneMemberID="viewController">
+                <viewController id="UB1-Ak-cuH" customClass="gameViewController" customModule="hit_the_hunter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ojT-vm-rEL"/>
                         <viewControllerLayoutGuide type="bottom" id="4nJ-u5-jxK"/>
@@ -150,20 +150,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="zürück button"/>
                                 <connections>
+                                    <action selector="stop:" destination="UB1-Ak-cuH" eventType="touchUpInside" id="hN1-05-W5U"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="vne-eD-GHH"/>
                                 </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="play the game " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rf2-bN-X2P">
-                                <rect key="frame" x="16" y="90" width="343" height="557"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="0.39477882922535212" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="39"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNQ-xX-UW2">
-                                <rect key="frame" x="196" y="0.0" width="163" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="SETTINGS"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -183,6 +172,6 @@
         <image name="zürück button" width="3000" height="2000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5ld-Vh-BuJ"/>
+        <segue reference="vne-eD-GHH"/>
     </inferredMetricsTieBreakers>
 </document>

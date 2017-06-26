@@ -19,6 +19,7 @@
 		61ED12A01EE2AABB009B5DB1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61ED129F1EE2AABB009B5DB1 /* AVFoundation.framework */; };
 		61ED12B41EE2BE4E009B5DB1 /* play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ED12B31EE2BE4E009B5DB1 /* play.storyboard */; };
 		61ED12B61EE2BE71009B5DB1 /* playViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED12B51EE2BE71009B5DB1 /* playViewController.swift */; };
+		FBB4B39A1F014DED00808F00 /* gameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4B3991F014DED00808F00 /* gameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		61ED129F1EE2AABB009B5DB1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		61ED12B31EE2BE4E009B5DB1 /* play.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = play.storyboard; sourceTree = "<group>"; };
 		61ED12B51EE2BE71009B5DB1 /* playViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playViewController.swift; sourceTree = "<group>"; };
+		FBB4B3991F014DED00808F00 /* gameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				61ED12681EE2A42F009B5DB1 /* AppDelegate.swift */,
 				61ED126A1EE2A42F009B5DB1 /* ViewController.swift */,
+				FBB4B3991F014DED00808F00 /* gameViewController.swift */,
 				61ED126C1EE2A42F009B5DB1 /* Main.storyboard */,
 				61ED12B31EE2BE4E009B5DB1 /* play.storyboard */,
 				61ED12B51EE2BE71009B5DB1 /* playViewController.swift */,
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB4B39A1F014DED00808F00 /* gameViewController.swift in Sources */,
 				61ED12B61EE2BE71009B5DB1 /* playViewController.swift in Sources */,
 				61ED126B1EE2A42F009B5DB1 /* ViewController.swift in Sources */,
 				61ED12691EE2A42F009B5DB1 /* AppDelegate.swift in Sources */,
