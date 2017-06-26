@@ -11,8 +11,7 @@ import AVFoundation
 
 class gameViewController: UIViewController {
     
-    var audioPlayer = AVAudioPlayer()
-    var audioGame = AVAudioPlayer()
+        var audioGame = AVAudioPlayer()
 
     
     override func viewDidLoad() {
@@ -21,17 +20,14 @@ class gameViewController: UIViewController {
         
         do{
             
-            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Seren", ofType: "mp3")!))
-            audioPlayer.prepareToPlay()
-            
-            
-            
+            audioGame = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Move", ofType: "mp3")!))
+            audioGame.prepareToPlay()
+            audioGame.play()
         }
         catch{
             
             print("app neu starten")
         }
-       
         
     }
 

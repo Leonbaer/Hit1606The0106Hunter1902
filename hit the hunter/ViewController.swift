@@ -43,17 +43,7 @@ class ViewController: UIViewController {
     }
        @IBAction func play(_ sender: Any) {
     audioPlayer.stop()
-        do{
-            
-            audioGame = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Move", ofType: "mp3")!))
-            audioGame.prepareToPlay()
-            audioGame.play()
-        }
-        catch{
-            
-            print("app neu starten")
-        }
-       _ = true
+              _ = true
      
                
         
