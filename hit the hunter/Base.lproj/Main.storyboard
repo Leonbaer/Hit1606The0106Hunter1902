@@ -154,9 +154,23 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="vne-eD-GHH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Stm-cL-H3N">
+                                <rect key="frame" x="-4" y="509" width="382" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="schuss:" destination="UB1-Ak-cuH" eventType="touchUpInside" id="SEg-j7-cUh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kokosnuss" translatesAutoresizingMaskIntoConstraints="NO" id="0DE-AY-Ra0">
+                                <rect key="frame" x="140" y="518" width="94" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="kokosnuss" destination="0DE-AY-Ra0" id="u0T-9k-KSu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qE7-UN-Vkx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -167,6 +181,7 @@
         <image name="PLAY BUTTON1" width="3000" height="2000"/>
         <image name="SCORE" width="3000" height="2000"/>
         <image name="SETTINGS" width="3000" height="2000"/>
+        <image name="kokosnuss" width="600" height="600"/>
         <image name="pause zeichen" width="3000" height="2000"/>
         <image name="startscreen" width="900" height="1600"/>
         <image name="zürück button" width="3000" height="2000"/>
