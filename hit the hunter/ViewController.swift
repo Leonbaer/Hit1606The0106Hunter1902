@@ -43,15 +43,29 @@ class ViewController: UIViewController {
     }
        @IBAction func play(_ sender: Any) {
     audioPlayer.stop()
-              _ = true
+        
      
-               
+        
         
         }
     
-    
-    
+    @IBAction func score(_ sender: Any) {
+          audioPlayer.stop()
+    }
+
+    @IBAction func settings(_ sender: Any) {
+          audioPlayer.stop()
     }
 
 
 
+}
+
+
+
+
+
+
+
+
+    
