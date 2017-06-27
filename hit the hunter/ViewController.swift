@@ -17,26 +17,27 @@ class ViewController: UIViewController {
     
    
     var audioPlayer = AVAudioPlayer()
-    var audioGame = AVAudioPlayer()
+    
+    var audioPlayercheck = true
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        
-              
+if audioPlayercheck == true {
         do{
             
             audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Seren", ofType: "mp3")!))
             audioPlayer.prepareToPlay()
             audioPlayer.play()
-            
-                
-               
+            audioPlayercheck = false
         }
     catch{
             
             print("app neu starten")
         }
+        }
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -44,18 +45,7 @@ class ViewController: UIViewController {
        @IBAction func play(_ sender: Any) {
     audioPlayer.stop()
         
-     
-        
-        
         }
-    
-    @IBAction func score(_ sender: Any) {
-          audioPlayer.stop()
-    }
-
-    @IBAction func settings(_ sender: Any) {
-          audioPlayer.stop()
-    }
 
 
 

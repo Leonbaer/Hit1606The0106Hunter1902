@@ -67,7 +67,7 @@ class gameViewController: UIViewController {
             
             self.kokosnuss.center = self.kokosnussPosition
         })
-    }
+        }
         
         
         
