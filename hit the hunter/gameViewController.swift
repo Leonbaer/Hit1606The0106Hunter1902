@@ -8,20 +8,29 @@
 
 import UIKit
 import AVFoundation
-import Darwin
+
 
 class gameViewController: UIViewController {
     
         var audioGame = AVAudioPlayer()
         var audioSchuss = AVAudioPlayer()
+ 
     
+        var kokosnussPosition = CGPoint()
     
-    @IBOutlet weak var kokosnuss: UIImageView!
+    @IBOutlet weak var kokosnussAusgang: UIButton!
+    @IBOutlet weak var kokosnuss: UIButton!
     
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        kokosnussPosition = kokosnuss.center
+       
+        kokosnuss.center = kokosnussAusgang.center
+        
+        
         
         
         do{
@@ -35,6 +44,9 @@ class gameViewController: UIViewController {
             
             print("app neu starten")
         }
+        
+       
+        
     
         do {
             
@@ -46,6 +58,16 @@ class gameViewController: UIViewController {
         }
         }
     
+    @IBAction func shot(_ sender: UIButton) {
+    
+        
+        UIView.animate(withDuration: 0.3, animations: {
+            
+            // zu bewegende Objekte hier einfügen
+            
+            self.kokosnuss.center = self.kokosnussPosition
+        })
+    }
         
         
         
@@ -62,14 +84,7 @@ class gameViewController: UIViewController {
         
     }
     
-    @IBAction func schuss(_ sender: Any) {
-     
-        UIImageView.animate(withDuration: 0.5, delay: 0.0, options: UIViewAnimationOptions.curveLinear, animations: {
-            self.kokosnuss.frame.origin.y = 160
-        }, completion: { (finished: Bool) in
-            print("Animation Ended!")
-        });
-    }
+    
     
        
 }

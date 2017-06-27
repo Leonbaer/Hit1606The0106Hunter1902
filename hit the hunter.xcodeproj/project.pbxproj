@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61210DB21F02A98100132FB2 /* affe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61210DB11F02A98100132FB2 /* affe.mp3 */; };
 		6129CB711EF18FC700EBDF9F /* Move.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6129CB701EF18FC700EBDF9F /* Move.mp3 */; };
 		6129CB731EF18FFF00EBDF9F /* Seren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6129CB721EF18FFF00EBDF9F /* Seren.mp3 */; };
 		61ED12691EE2A42F009B5DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED12681EE2A42F009B5DB1 /* AppDelegate.swift */; };
@@ -17,7 +18,6 @@
 		61ED127E1EE2A42F009B5DB1 /* hit_the_hunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED127D1EE2A42F009B5DB1 /* hit_the_hunterTests.swift */; };
 		61ED12891EE2A42F009B5DB1 /* hit_the_hunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED12881EE2A42F009B5DB1 /* hit_the_hunterUITests.swift */; };
 		61ED12A01EE2AABB009B5DB1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61ED129F1EE2AABB009B5DB1 /* AVFoundation.framework */; };
-		FB5B19401F028D8D008E5753 /* affe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB5B193F1F028D8D008E5753 /* affe.mp3 */; };
 		FBB4B39A1F014DED00808F00 /* gameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4B3991F014DED00808F00 /* gameViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61210DB11F02A98100132FB2 /* affe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = affe.mp3; sourceTree = "<group>"; };
 		6129CB701EF18FC700EBDF9F /* Move.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Move.mp3; sourceTree = "<group>"; };
 		6129CB721EF18FFF00EBDF9F /* Seren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Seren.mp3; sourceTree = "<group>"; };
 		61ED12651EE2A42F009B5DB1 /* hit the hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hit the hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +57,6 @@
 		61ED128A1EE2A42F009B5DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61ED129D1EE2AA6D009B5DB1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		61ED129F1EE2AABB009B5DB1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		FB5B193F1F028D8D008E5753 /* affe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = affe.mp3; path = ../affe.mp3; sourceTree = "<group>"; };
 		FBB4B3991F014DED00808F00 /* gameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +94,7 @@
 				61ED12871EE2A42F009B5DB1 /* hit the hunterUITests */,
 				61ED12661EE2A42F009B5DB1 /* Products */,
 				6129CB701EF18FC700EBDF9F /* Move.mp3 */,
-				FB5B193F1F028D8D008E5753 /* affe.mp3 */,
+				61210DB11F02A98100132FB2 /* affe.mp3 */,
 				6129CB721EF18FFF00EBDF9F /* Seren.mp3 */,
 				61ED129C1EE2AA6D009B5DB1 /* Frameworks */,
 			);
@@ -278,8 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6129CB711EF18FC700EBDF9F /* Move.mp3 in Resources */,
+				61210DB21F02A98100132FB2 /* affe.mp3 in Resources */,
 				6129CB731EF18FFF00EBDF9F /* Seren.mp3 in Resources */,
-				FB5B19401F028D8D008E5753 /* affe.mp3 in Resources */,
 				61ED12731EE2A42F009B5DB1 /* LaunchScreen.storyboard in Resources */,
 				61ED12701EE2A42F009B5DB1 /* Assets.xcassets in Resources */,
 				61ED126E1EE2A42F009B5DB1 /* Main.storyboard in Resources */,

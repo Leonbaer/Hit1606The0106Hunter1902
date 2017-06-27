@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen" translatesAutoresizingMaskIntoConstraints="NO" id="tjN-oZ-ijl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hintergrund play 3" translatesAutoresizingMaskIntoConstraints="NO" id="tjN-oZ-ijl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -141,7 +141,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startscreen" translatesAutoresizingMaskIntoConstraints="NO" id="fJV-sr-ER3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hintergrund play" translatesAutoresizingMaskIntoConstraints="NO" id="fJV-sr-ER3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -154,22 +154,25 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="vne-eD-GHH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Stm-cL-H3N">
-                                <rect key="frame" x="-4" y="509" width="382" height="158"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUH-FM-ifP">
+                                <rect key="frame" x="222" y="516" width="116" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="kokosnuss"/>
                                 <connections>
-                                    <action selector="schuss:" destination="UB1-Ak-cuH" eventType="touchUpInside" id="SEg-j7-cUh"/>
+                                    <action selector="shot:" destination="UB1-Ak-cuH" eventType="touchUpInside" id="9wR-Rj-Lhn"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kokosnuss" translatesAutoresizingMaskIntoConstraints="NO" id="0DE-AY-Ra0">
-                                <rect key="frame" x="140" y="518" width="94" height="114"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cc-Hn-NGp">
+                                <rect key="frame" x="39" y="289" width="21" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button" image="kokosnuss"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="kokosnuss" destination="0DE-AY-Ra0" id="u0T-9k-KSu"/>
+                        <outlet property="kokosnuss" destination="2cc-Hn-NGp" id="pfz-SP-BIu"/>
+                        <outlet property="kokosnussAusgang" destination="cUH-FM-ifP" id="YPG-0B-wd1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qE7-UN-Vkx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -181,6 +184,8 @@
         <image name="PLAY BUTTON1" width="3000" height="2000"/>
         <image name="SCORE" width="3000" height="2000"/>
         <image name="SETTINGS" width="3000" height="2000"/>
+        <image name="hintergrund play" width="750" height="1334"/>
+        <image name="hintergrund play 3" width="750" height="1334"/>
         <image name="kokosnuss" width="600" height="600"/>
         <image name="pause zeichen" width="3000" height="2000"/>
         <image name="startscreen" width="900" height="1600"/>
