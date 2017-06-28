@@ -60,12 +60,18 @@ class gameViewController: UIViewController {
     
     
     @IBAction func shot(_ sender: UIButton) {
-        UIView.animate(withDuration: 0.3, animations: {
+       
+        UIView.animate(withDuration: 0.6, animations: {
             
-            // zu bewegende Objekte hier einfügen
+// zu bewegende Objekte hier einfügen
             
             self.kokosnuss.center = self.kokosnussPosition
         })
+        UIView.animate(withDuration: 0.6, animations: {
+        self.kokosnuss.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+        })
+        
+        
         }
         
         
