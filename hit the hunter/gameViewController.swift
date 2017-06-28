@@ -70,8 +70,7 @@ class gameViewController: UIViewController {
         UIView.animate(withDuration: 0.6, animations: {
         self.kokosnuss.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
         })
-        
-        
+            
         }
         
         

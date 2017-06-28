@@ -25,8 +25,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var dimView: UIView!
     @IBOutlet var welcomeView: UIView!
     @IBAction func exitWelcome(_ sender: Any) {
-        welcomeView.removeFromSuperview()
+       
         dimView.alpha = 0
+        
+        UIView.animate(withDuration: 0.3, delay: 0, options: [], animations: {
+            self.welcomeView.transform = CGAffineTransform(scaleX: 0.2, y: 0.2)
+        }) { (success) in
+            self.welcomeView.removeFromSuperview()
+        }
+        
+        
     }
     
 //MARK:- override Func
@@ -34,17 +42,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
    welcomeView.center = view.center
+    welcomeView.transform = CGAffineTransform(scaleX: 0.8, y: 1.2)
         view.addSubview(welcomeView)
+    
+        UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0, options: [], animations: {
+        self.welcomeView.transform = .identity
+        })
+        
+    
      dimView.alpha = 0.7
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
        
 if audioPlayercheck == true {
