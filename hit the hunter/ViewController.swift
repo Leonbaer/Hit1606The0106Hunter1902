@@ -15,26 +15,27 @@ class ViewController: UIViewController {
     
     
     
-   
+//MARK:- Variablen 
     var audioPlayer = AVAudioPlayer()
     
     var audioPlayercheck = true
     
     
     
+    @IBOutlet weak var dimView: UIView!
     @IBOutlet var welcomeView: UIView!
     @IBAction func exitWelcome(_ sender: Any) {
         welcomeView.removeFromSuperview()
+        dimView.alpha = 0
     }
     
-    
+//MARK:- override Func
     override func viewDidLoad() {
         super.viewDidLoad()
         
    welcomeView.center = view.center
-        
-    view.addSubview(welcomeView)
-        
+        view.addSubview(welcomeView)
+     dimView.alpha = 0.7
         
         
         
@@ -64,12 +65,22 @@ if audioPlayercheck == true {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    
+//MARK:- Menu Buttons
        @IBAction func play(_ sender: Any) {
     audioPlayer.stop()
         
         }
 
-
+    @IBAction func score(_ sender: Any) {
+    audioPlayer.stop()
+    }
+    @IBAction func settings(_ sender: Any) {
+    audioPlayer.stop()
+    }
 
 }
 

@@ -58,9 +58,8 @@ class gameViewController: UIViewController {
         }
         }
     
-    @IBAction func shot(_ sender: UIButton) {
     
-        
+    @IBAction func shot(_ sender: UIButton) {
         UIView.animate(withDuration: 0.3, animations: {
             
             // zu bewegende Objekte hier einfügen

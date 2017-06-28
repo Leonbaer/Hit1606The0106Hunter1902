@@ -39,6 +39,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="SCORE"/>
                                 <connections>
+                                    <action selector="score:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8JP-1c-JFv"/>
                                     <segue destination="8u1-YG-sxA" kind="show" id="6b3-7g-sL4"/>
                                 </connections>
                             </button>
@@ -47,39 +48,51 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="SETTINGS"/>
                                 <connections>
+                                    <action selector="settings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C3Q-Ua-sed"/>
                                     <segue destination="dyZ-1d-yIl" kind="show" id="TqN-fb-cag"/>
                                 </connections>
                             </button>
+                            <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ufR-lr-l5J">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="welcomeView" destination="sGr-ox-qyi" id="9AJ-8s-Hi9"/>
+                        <outlet property="dimView" destination="ufR-lr-l5J" id="uzR-9t-IEU"/>
+                        <outlet property="welcomeView" destination="sGr-ox-qyi" id="hnM-if-Mvg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="sGr-ox-qyi">
-                    <rect key="frame" x="0.0" y="0.0" width="312" height="471"/>
+                <view contentMode="scaleToFill" id="sGr-ox-qyi" customClass="UIViewX">
+                    <rect key="frame" x="0.0" y="0.0" width="312" height="414"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qc7-33-vWB">
-                            <rect key="frame" x="133" y="391" width="44" height="44"/>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JjF-O5-fP2">
+                            <rect key="frame" x="16" y="20" width="280" height="317"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Exit"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <string key="text">WIllkommen in unserem neuen Spiel "HIT THE HUNTER".                           Wir möchten dich daran erinnnern, dass sich diese Version des Spiels noch in einer frühen Alpha Version befindet und es deshalb zu unerwarteten Problemen und Bugs kommen kann, solllte das der Fall sein bitten wir dich den Support zu kontaktieren und uns das Problem zu melden.                                           Danke für dein Verständnis!                            HIT THE HUNTER Team </string>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qc7-33-vWB">
+                            <rect key="frame" x="129" y="340" width="54" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Weiter"/>
                             <connections>
                                 <action selector="exitWelcome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xB2-4d-6D7"/>
                             </connections>
                         </button>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JjF-O5-fP2">
-                            <rect key="frame" x="16" y="20" width="280" height="376"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <string key="text">WIllkommen in unserem neuen Spiel "HIT THE HUNTER".                           Wir möchten dich daran erinnnern das sich diese Version des Spiels noch in einer frühen Alpha Version befindet und es deshalb zu unerwarteten Problemen und Bugs kommen kann, solllte das der Fall sein bitten wir dich den Support zu kontaktieren und uns das Problem zu melden.                                           Danke für dein Verständnis!                            HIT THE HUNTER Team </string>
-                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
-                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                        </textView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </view>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
@@ -180,18 +193,24 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="vne-eD-GHH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUH-FM-ifP">
-                                <rect key="frame" x="222" y="516" width="116" height="131"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cc-Hn-NGp">
+                                <rect key="frame" x="39" y="289" width="41" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="kokosnuss"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dun-sj-ZHL">
+                                <rect key="frame" x="0.0" y="509" width="375" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="shot:" destination="UB1-Ak-cuH" eventType="touchUpInside" id="3fW-Cj-iVc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUH-FM-ifP">
+                                <rect key="frame" x="277" y="562" width="82" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="shot:" destination="UB1-Ak-cuH" eventType="touchUpInside" id="9wR-Rj-Lhn"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cc-Hn-NGp">
-                                <rect key="frame" x="39" y="289" width="21" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="kokosnuss"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -217,6 +236,6 @@
         <image name="zürück button" width="3000" height="2000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5ld-Vh-BuJ"/>
+        <segue reference="vne-eD-GHH"/>
     </inferredMetricsTieBreakers>
 </document>
