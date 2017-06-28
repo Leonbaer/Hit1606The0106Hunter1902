@@ -21,8 +21,30 @@ class ViewController: UIViewController {
     var audioPlayercheck = true
     
     
+    
+    @IBOutlet var welcomeView: UIView!
+    @IBAction func exitWelcome(_ sender: Any) {
+        welcomeView.removeFromSuperview()
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+   welcomeView.center = view.center
+        
+    view.addSubview(welcomeView)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
        
 if audioPlayercheck == true {
         do{
