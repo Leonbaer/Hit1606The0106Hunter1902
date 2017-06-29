@@ -73,11 +73,11 @@ class gameViewController: UIViewController {
         UIView.animate(withDuration: 0.6, animations: {
         self.kokosnuss.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
         })
-        
-    
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1), execute: {
             // Put your code which should be executed with a delay here
-            self.nuss.isHidden = true
+            self.kokosnuss.transform = CGAffineTransform(scaleX: 1, y: 1)
+
+            self.kokosnuss.center = self.kokosnussAusgang.center
         })
         }
         
