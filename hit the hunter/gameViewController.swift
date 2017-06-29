@@ -71,7 +71,7 @@ class gameViewController: UIViewController {
             self.kokosnuss.center = self.kokosnussPosition
         })
         UIView.animate(withDuration: 0.6, animations: {
-        self.kokosnuss.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+        self.kokosnuss.transform = CGAffineTransform(scaleX: 1, y: 1)
         })
         
     
