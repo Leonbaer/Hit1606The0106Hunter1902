@@ -155,7 +155,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8VB-dV-o94">
                                 <rect key="frame" x="0.0" y="8" width="106" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="pause zeichen"/>
+                                <state key="normal" title="Button" image="zürück button"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="5ld-Vh-BuJ"/>
                                 </connections>
@@ -233,10 +233,9 @@
         <image name="hintergrund play" width="750" height="1334"/>
         <image name="hintergrund play 3" width="750" height="1334"/>
         <image name="kokosnuss" width="600" height="600"/>
-        <image name="pause zeichen" width="3000" height="2000"/>
         <image name="zürück button" width="3000" height="2000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vne-eD-GHH"/>
+        <segue reference="5ld-Vh-BuJ"/>
     </inferredMetricsTieBreakers>
 </document>
