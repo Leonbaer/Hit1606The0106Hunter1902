@@ -21,6 +21,9 @@ class gameViewController: UIViewController {
     @IBOutlet weak var kokosnussAusgang: UIButton!
     @IBOutlet weak var kokosnuss: UIButton!
     
+    @IBOutlet weak var nuss: UIButton!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +33,7 @@ class gameViewController: UIViewController {
        
         kokosnuss.center = kokosnussAusgang.center
         
-        
+        nuss.isHidden = false
         
         
         do{
@@ -70,7 +73,12 @@ class gameViewController: UIViewController {
         UIView.animate(withDuration: 0.6, animations: {
         self.kokosnuss.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
         })
-            
+        
+    
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1), execute: {
+            // Put your code which should be executed with a delay here
+            self.nuss.isHidden = true
+        })
         }
         
         
